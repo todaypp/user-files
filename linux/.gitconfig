@@ -1,0 +1,27 @@
+[user]
+        email = sohn0521@gmail.com
+        name = Sumin Sohn
+[push]
+        default = simple
+[alias]
+        a = add .
+        co = checkout
+        ca = commit --amend
+        d = diff
+        dc = diff --cached
+        dl = diff HEAD^1
+        l = log --graph --oneline --decorate --all
+        ls = log --graph --oneline --decorate
+        lso = log --graph --oneline --decorate origin
+        p = push
+        pf = push -f
+        sl = stash list
+        sp = stash pop
+        st = stash
+        s = status
+[color]
+        ui = true
+[core]
+        autocrlf = input
+        editor = vim
+
